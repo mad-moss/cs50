@@ -1,5 +1,6 @@
 use std::io;
 
+//equivalent of cs50.h's get_int(), etc.
 pub fn get_input<T: std::str::FromStr>(prompt: &str) -> T {
     loop {
 
