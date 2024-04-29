@@ -1,6 +1,6 @@
 use std::io;
 
-//equivalent of cs50.h's get_int(), etc.
+//equivalent of cs50.h's get_int(), etc. but generic over any type which implements std::str::FromStr
 pub fn get_input<T: std::str::FromStr>(prompt: &str) -> T {
     loop {
 
